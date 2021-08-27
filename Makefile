@@ -6,7 +6,7 @@
 #    By: lkrebs-l <lkrebs-l@student.42sp.org.br     +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/08/23 15:27:40 by lkrebs-l          #+#    #+#              #
-#    Updated: 2021/08/25 15:11:19 by lkrebs-l         ###   ########.fr        #
+#    Updated: 2021/08/27 20:03:53 by lkrebs-l         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -20,9 +20,9 @@ C_SOURCE = ft_isalnum.c ft_isprint.c ft_memcmp.c  ft_putchar.c ft_split.c \
 
 NAME = libft.a
 
-FLAGS = -Wextra -Werror -Wall 
+CFLAGS = -Wextra -Werror -Wall 
 
-CC = gcc
+CC = clang
 
 RM = rm -f
 
@@ -39,5 +39,6 @@ clean:
 fclean: clean
 	$(RM) $(NAME) 
 
-re:
-	clean $(NAME)
+re: fclean $(NAME)
+ 
+ .PHONY: all clean fclean re
