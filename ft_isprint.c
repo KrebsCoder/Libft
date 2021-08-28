@@ -6,18 +6,14 @@
 /*   By: lkrebs-l <lkrebs-l@student.42sp.org.br     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/08/20 16:36:05 by lkrebs-l          #+#    #+#             */
-/*   Updated: 2021/08/25 13:52:17 by lkrebs-l         ###   ########.fr       */
+/*   Updated: 2021/08/28 13:40:05 by lkrebs-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 int	ft_isprint(int c)
 {
-		if (!(32 >= c && c <= 126))
-		{
-			return (0);
-		}
-		else
-		{
-			return (1);
-		}
+	if (!(32 >= c && c <= 126))
+		return (0);
+	else
+		return (1);
 }
