@@ -6,9 +6,11 @@
 /*   By: lkrebs-l <lkrebs-l@student.42sp.org.br     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/08/20 16:36:07 by lkrebs-l          #+#    #+#             */
-/*   Updated: 2021/08/28 13:18:44 by lkrebs-l         ###   ########.fr       */
+/*   Updated: 2021/08/30 17:57:00 by lkrebs-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "libft.h"
 
 int	ft_isdigit(char c)
 {
