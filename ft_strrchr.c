@@ -6,11 +6,11 @@
 /*   By: lkrebs-l <lkrebs-l@student.42sp.org.br     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/08/20 16:36:41 by lkrebs-l          #+#    #+#             */
-/*   Updated: 2021/08/29 14:55:42 by lkrebs-l         ###   ########.fr       */
+/*   Updated: 2021/08/30 17:02:22 by lkrebs-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <string.h>
+#include "libft.h"
 
 char	*ft_strrchr(const char *string, int c)
 {

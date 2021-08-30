@@ -6,11 +6,11 @@
 /*   By: lkrebs-l <lkrebs-l@student.42sp.org.br     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/08/20 16:35:00 by lkrebs-l          #+#    #+#             */
-/*   Updated: 2021/08/28 13:20:38 by lkrebs-l         ###   ########.fr       */
+/*   Updated: 2021/08/30 17:02:32 by lkrebs-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stddef.h>
+#include "libft.h"
 
 size_t	ft_strlen(const char *string)
 {
