@@ -6,18 +6,13 @@
 /*   By: lkrebs-l <lkrebs-l@student.42sp.org.br     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/08/20 16:36:43 by lkrebs-l          #+#    #+#             */
-/*   Updated: 2021/08/25 15:14:07 by lkrebs-l         ###   ########.fr       */
+/*   Updated: 2021/08/29 20:00:56 by lkrebs-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int ft_tolower(int c)
+int	ft_tolower(int c)
 {
-    if (c >= 'a' && c <= 'z')
-    {
-        return (c - 32);
-    }
-    else
-    {
-        return(c);
-    }
+	if (c >= 'a' && c <= 'z')
+		return (c - 32);
+	return (c);
 }
