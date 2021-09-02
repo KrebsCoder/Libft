@@ -6,11 +6,11 @@
 /*   By: lkrebs-l <lkrebs-l@student.42sp.org.br     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/08/20 16:36:18 by lkrebs-l          #+#    #+#             */
-/*   Updated: 2021/08/30 16:57:49 by lkrebs-l         ###   ########.fr       */
+/*   Updated: 2021/09/01 20:49:44 by lkrebs-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <libft.h>
+#include "libft.h"
 
 void	ft_bzero(void *s, size_t n)
 {
