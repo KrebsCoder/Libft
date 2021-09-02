@@ -6,7 +6,7 @@
 /*   By: lkrebs-l <lkrebs-l@student.42sp.org.br     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/08/20 16:35:48 by lkrebs-l          #+#    #+#             */
-/*   Updated: 2021/09/02 07:27:30 by lkrebs-l         ###   ########.fr       */
+/*   Updated: 2021/09/02 07:37:32 by lkrebs-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,5 +19,5 @@ char	*ft_strchr(const char *string, int c)
 	else if (!*string)
 		return (NULL);
 	else
-		return(ft_strchr(++string, c));
+		return (ft_strchr(++string, c));
 }
