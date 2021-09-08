@@ -6,7 +6,7 @@
 /*   By: lkrebs-l <lkrebs-l@student.42sp.org.br     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/08/27 14:25:04 by lkrebs-l          #+#    #+#             */
-/*   Updated: 2021/09/08 20:50:53 by lkrebs-l         ###   ########.fr       */
+/*   Updated: 2021/09/08 20:51:50 by lkrebs-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,5 +30,3 @@ char	*ft_strdup(const char *src)
 	dst[i] = '\0';
 	return (dst);
 }
-
-// misaligned variable declaration - need to fix this
