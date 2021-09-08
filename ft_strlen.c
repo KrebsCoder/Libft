@@ -6,7 +6,7 @@
 /*   By: lkrebs-l <lkrebs-l@student.42sp.org.br     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/08/20 16:35:00 by lkrebs-l          #+#    #+#             */
-/*   Updated: 2021/08/30 17:02:32 by lkrebs-l         ###   ########.fr       */
+/*   Updated: 2021/09/06 22:24:04 by lkrebs-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@ size_t	ft_strlen(const char *string)
 	size_t	i;
 
 	i = 0;
-	while (string[i] != '\0')
+	while (string[i])
 	{
 		i++;
 	}

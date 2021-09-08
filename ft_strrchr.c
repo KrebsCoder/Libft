@@ -6,7 +6,7 @@
 /*   By: lkrebs-l <lkrebs-l@student.42sp.org.br     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/08/20 16:36:41 by lkrebs-l          #+#    #+#             */
-/*   Updated: 2021/08/30 17:02:22 by lkrebs-l         ###   ########.fr       */
+/*   Updated: 2021/09/06 22:22:48 by lkrebs-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,20 +14,13 @@
 
 char	*ft_strrchr(const char *string, int c)
 {
-	int	i;
+	size_t	lenght;
 
-	i = 0;
-	while (*string != '\0')
+	lenght = ft_strlen(string) + 1;
+	while (lenght--)
 	{
-		string++;
-	}
-	while (*string <= string[0])
-	{
-		if (*string == c)
-		{
-			return ((char *) string);
-		}
-		string--;
+		if (string[lenght] == (unsigned char)c)
+			return ((char *) string + lenght);
 	}
 	return (NULL);
 }
