@@ -35,6 +35,6 @@ int    	ft_striteri(int    c);
 int    	ft_strjoin(int    c);
 int    	ft_strmapi(int    c);
 int    	ft_strtrim(int    c);
-int    	ft_substr(int    c);
+char	*ft_substr(char const *s, unsigned int start, size_t len);
 
 #endif

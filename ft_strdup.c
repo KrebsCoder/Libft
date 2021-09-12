@@ -6,7 +6,7 @@
 /*   By: lkrebs-l <lkrebs-l@student.42sp.org.br     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/08/27 14:25:04 by lkrebs-l          #+#    #+#             */
-/*   Updated: 2021/09/08 20:51:50 by lkrebs-l         ###   ########.fr       */
+/*   Updated: 2021/09/08 22:26:01 by lkrebs-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@ char	*ft_strdup(const char *src)
 	int		i;
 	char	*dst;
 
-	dst = malloc(sizeof(*src) * (ft_strlen(src) + 1));
+	dst = malloc(ft_strlen(src) + 1);
 	if (!dst)
 		return (NULL);
 	i = 0;
