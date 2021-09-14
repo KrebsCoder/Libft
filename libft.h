@@ -32,7 +32,7 @@ int    	ft_putnbr_fd(int    c);
 int    	ft_putstr_fd(int    c);
 int    	ft_split(int    c);
 int    	ft_striteri(int    c);
-int    	ft_strjoin(int    c);
+char	*ft_strjoin(char const *s1, char const *s2);
 int    	ft_strmapi(int    c);
 int    	ft_strtrim(int    c);
 char	*ft_substr(char const *s, unsigned int start, size_t len);
