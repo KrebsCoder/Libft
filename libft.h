@@ -34,7 +34,7 @@ int    	ft_split(int    c);
 int    	ft_striteri(int    c);
 char	*ft_strjoin(char const *s1, char const *s2);
 int    	ft_strmapi(int    c);
-int    	ft_strtrim(int    c);
+char	*ft_strtrim(char const *s1, char const *set);
 char	*ft_substr(char const *s, unsigned int start, size_t len);
 
 #endif
