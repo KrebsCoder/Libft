@@ -2,3 +2,4 @@ main.c
 .vscode
 *.o
 libfttester
+a.out
