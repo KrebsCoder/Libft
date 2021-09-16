@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   libft.h                                            :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: lkrebs-l <lkrebs-l@student.42sp.org.br>    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2021/09/15 22:04:01 by lkrebs-l          #+#    #+#             */
+/*   Updated: 2021/09/15 22:04:10 by lkrebs-l         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #ifndef LIBFT_H
 # define LIBFT_H
 #include <stddef.h>
@@ -31,7 +43,7 @@ int    	ft_putchar_fd(int    c);
 int    	ft_putendl_fd(int    c);
 int    	ft_putnbr_fd(int    c);
 int    	ft_putstr_fd(int    c);
-int    	ft_split(int    c);
+char 	**ft_split(char const *s, char c);
 int    	ft_striteri(int    c);
 char	*ft_strjoin(char const *s1, char const *s2);
 int    	ft_strmapi(int    c);
