@@ -3,23 +3,29 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strncmp.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: lkrebs-l <lkrebs-l@student.42sp.org.br     +#+  +:+       +#+        */
+/*   By: krebscoder <krebscoder@student.42.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/08/20 16:31:16 by lkrebs-l          #+#    #+#             */
-/*   Updated: 2021/09/06 22:39:52 by lkrebs-l         ###   ########.fr       */
+/*   Updated: 2021/09/23 14:35:43 by krebscoder       ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
 int	ft_strncmp(const char *s1, const char *s2, unsigned int n)
-{	
-	if (!n)
+{
+	unsigned char	*str1;
+	unsigned char	*str2;
+	size_t			i;
+
+	if (n == 0)
 		return (0);
-	while (*s1 == *s2 && --n)
-	{
-		++s1;
-		++s2;
-	}
-	return (*s1 - *s2);
+	str1 = (unsigned char *)s1;
+	str2 = (unsigned char *)s2;
+	i = 0;
+	while ((str1[i] == str2[i]) && str1[i] && str2[i] && i < n)
+		i++;
+	if (i < n)
+		return (str1[i] - str2[i]);
+	return (0);
 }
