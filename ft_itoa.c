@@ -6,11 +6,10 @@
 /*   By: lkrebs-l <lkrebs-l@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/08/27 14:25:57 by lkrebs-l          #+#    #+#             */
-/*   Updated: 2021/09/23 20:41:54 by lkrebs-l         ###   ########.fr       */
+/*   Updated: 2021/09/23 20:43:17 by lkrebs-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
 #include "libft.h"
 
 static size_t	ft_intlen(int n)
