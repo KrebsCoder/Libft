@@ -6,7 +6,7 @@
 /*   By: lkrebs-l <lkrebs-l@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/08/20 16:35:00 by lkrebs-l          #+#    #+#             */
-/*   Updated: 2021/09/15 22:01:32 by lkrebs-l         ###   ########.fr       */
+/*   Updated: 2021/09/23 00:59:44 by lkrebs-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,14 +14,10 @@
 
 size_t	ft_strlen(const char *string)
 {
-	size_t	len;
+	size_t	i;
 
-	len = 0;
-	if (string == NULL)
-		return (NULL);
+	i = 0;
 	while (string[i])
-	{
 		i++;
-	}
 	return (i);
 }
