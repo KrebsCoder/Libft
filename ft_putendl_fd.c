@@ -3,10 +3,24 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putendl_fd.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: lkrebs-l <lkrebs-l@student.42sp.org.br     +#+  +:+       +#+        */
+/*   By: lkrebs-l <lkrebs-l@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/08/27 14:24:54 by lkrebs-l          #+#    #+#             */
-/*   Updated: 2021/08/27 14:24:57 by lkrebs-l         ###   ########.fr       */
+/*   Created: 2021/09/24 19:17:43 by lkrebs-l          #+#    #+#             */
+/*   Updated: 2021/09/24 19:17:45 by lkrebs-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "libft.h"
+
+void	ft_putendl_fd(char *s, int fd)
+{
+	size_t	i;
+
+	i = 0;
+	while (s[i])
+	{
+		write(fd, &s[i], 1);
+		i++;
+	}
+	write(fd, "\n", 1);
+}

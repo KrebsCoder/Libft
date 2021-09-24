@@ -3,14 +3,14 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: lkrebs-l <lkrebs-l@student.42sp.org.br>    +#+  +:+       +#+         #
+#    By: gcosta-d <gcosta-d@student.42sp.org.br>    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/08/23 15:27:40 by lkrebs-l          #+#    #+#              #
-#    Updated: 2021/09/15 22:04:08 by lkrebs-l         ###   ########.fr        #
+#    Updated: 2021/09/24 248:000:07 by gcosta-d         ###   ########.fr       #
 #                                                                              #
 # **************************************************************************** #
 
-C_SOURCE = ft_isalnum.c ft_isprint.c ft_memcmp.c  ft_putchar.c ft_split.c \
+C_SOURCE = ft_isalnum.c ft_isprint.c ft_memcmp.c  ft_putchar_fd.c ft_split.c \
 					ft_strlcat.c ft_strncmp.c ft_substr.c ft_atoi.c ft_isalpha.c \
 					ft_itoa.c ft_memcpy.c  ft_putendl_fd.c ft_strchr.c  ft_strlcpy.c \
 					ft_strnstr.c ft_tolower.c ft_bzero.c   ft_isascii.c \
@@ -20,7 +20,7 @@ C_SOURCE = ft_isalnum.c ft_isprint.c ft_memcmp.c  ft_putchar.c ft_split.c \
 
 NAME = libft.a
 
-CFLAGS = -Wextra -Werror -Wall 
+CFLAGS = -Wextra -Werror -Wall
 
 CC = clang
 
@@ -30,18 +30,19 @@ OBJ=$(C_SOURCE:.c=.o)
 
 %.o: %.c
 	$(CC) $(CFLAGS) -c $< -o $@
- 
+
 all: $(NAME)
 
-$(NAME): $(OBJ) 
+$(NAME): $(OBJ)
 	ar crs $(NAME) $(OBJ)
 
 clean:
 	$(RM) $(OBJ)
 
 fclean: clean
-	$(RM) $(NAME) 
+	$(RM) $(NAME)
 
 re: fclean $(NAME)
- 
+
  .PHONY: all clean fclean re
+
