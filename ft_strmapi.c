@@ -6,7 +6,7 @@
 /*   By: lkrebs-l <lkrebs-l@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/08/27 14:25:12 by lkrebs-l          #+#    #+#             */
-/*   Updated: 2021/09/23 21:34:06 by lkrebs-l         ###   ########.fr       */
+/*   Updated: 2021/09/24 01:32:38 by lkrebs-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,15 +17,14 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 	unsigned int	i;
 	char			*str;
 
-	str = (char *)ft_calloc((ft_strlen(s) + 1), sizeof(char));
+	str = ft_strdup(s);
 	if (str == NULL)
 		return (NULL);
 	i = 0;
-	while (s[i])
+	while (str[i])
 	{
-		str[i] = f(i, s[i]);
+		str[i] = f(i, str[i]);
 		i++;
 	}
-	str[i] = '\0';
 	return (str);
 }
