@@ -6,7 +6,7 @@
 /*   By: lkrebs-l <lkrebs-l@student.42sp.org.br     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/08/20 16:35:53 by lkrebs-l          #+#    #+#             */
-/*   Updated: 2021/09/08 20:48:11 by lkrebs-l         ###   ########.fr       */
+/*   Updated: 2021/09/24 22:53:31 by lkrebs-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,8 @@ void	*ft_memmove(void *dest, const void *src, size_t n)
 {
 	int	i;
 
+	if (!dest && !src)
+		return (NULL);
 	if (dest < src)
 		ft_memcpy(dest, src, n);
 	else

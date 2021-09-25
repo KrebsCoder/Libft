@@ -6,7 +6,7 @@
 /*   By: lkrebs-l <lkrebs-l@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/15 22:04:01 by lkrebs-l          #+#    #+#             */
-/*   Updated: 2021/09/23 00:23:19 by lkrebs-l         ###   ########.fr       */
+/*   Updated: 2021/09/24 22:42:00 by lkrebs-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -62,7 +62,7 @@ int		ft_isascii(int n);
  * @brief returns if N is a number.
  * @param N argument to be checked
  */
-int		ft_isdigit(char c);
+int		ft_isdigit(int c);
 
 /**
  * @brief returns if N has a printable argument.
