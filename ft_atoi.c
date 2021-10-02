@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_atoi.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: krebscoder <krebscoder@student.42.fr>      +#+  +:+       +#+        */
+/*   By: lkrebs-l <lkrebs-l@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/08/20 16:36:20 by lkrebs-l          #+#    #+#             */
-/*   Updated: 2021/09/23 14:47:43 by krebscoder       ###   ########.fr       */
+/*   Updated: 2021/10/01 19:04:43 by lkrebs-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,7 +27,7 @@ int	ft_atoi(const char *str)
 		str++;
 	}
 	res = 0;
-	while (*str && *str &&*str >= '0' && *str <= '9')
+	while (*str && *str >= '0' && *str <= '9')
 	{
 		res = (res * 10) + (*str - '0');
 		str++;
