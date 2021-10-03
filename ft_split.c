@@ -6,7 +6,7 @@
 /*   By: lkrebs-l <lkrebs-l@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/08/27 14:24:48 by lkrebs-l          #+#    #+#             */
-/*   Updated: 2021/10/02 13:14:40 by lkrebs-l         ###   ########.fr       */
+/*   Updated: 2021/10/02 15:45:47 by lkrebs-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 static size_t	ft_wordcount(char const *s, char c)
 {
 	unsigned int	i;
-	unsigned int	wordcount;
+	unsigned int	wordcount; // ----palavra---palavra
 
 	i = 0;
 	wordcount = 0;
@@ -48,7 +48,7 @@ char	**ft_split(char const *s, char c)
 	size_t	words;
 	size_t	i;
 	size_t	k;
-	char	**tables;
+	char	**tables;  
 
 	words = ft_wordcount(s, c);
 	tables = ft_calloc(words + 1, sizeof(char *));

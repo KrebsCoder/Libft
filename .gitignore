@@ -1,7 +1,7 @@
 main.c
 .vscode
 *.o
-libfttester
+libftTester
 a.out
 libft-war-machine
 libft-unit-test
