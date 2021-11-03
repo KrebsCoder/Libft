@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_split.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: lkrebs-l <lkrebs-l@student.42sp.org.br>    +#+  +:+       +#+        */
+/*   By: krebscoder <krebscoder@student.42.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/08/27 14:24:48 by lkrebs-l          #+#    #+#             */
-/*   Updated: 2021/10/02 15:45:47 by lkrebs-l         ###   ########.fr       */
+/*   Updated: 2021/11/03 16:06:55 by krebscoder       ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 static size_t	ft_wordcount(char const *s, char c)
 {
 	unsigned int	i;
-	unsigned int	wordcount; // ----palavra---palavra
+	unsigned int	wordcount;
 
 	i = 0;
 	wordcount = 0;
