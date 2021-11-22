@@ -34,29 +34,29 @@ Libft is about recreating of a few functions from <a href="https://en.wikipedia.
 
 ### From <ctype.h>
 
-- [x] [`ft_isalpha`](ft_isalpha.c)	- checks for an alphabetic character.
-- [x] [`ft_isdigit`](ft_isdigit.c)	- check for a digit (0 through 9).
-- [x] [`ft_isalnum`](ft_isalnum.c)	- checks for an alphanumeric character.
-- [x] [`ft_isascii`](ft_isascii.c)	- checks whether c fits into the ASCII character set.
-- [x] [`ft_isprint`](ft_isprint.c)	- checks for any printable character.
-- [x] [`ft_toupper`](ft_toupper.c)	- convert char to uppercase.
-- [x] [`ft_tolower`](ft_tolower.c)	- convert char to lowercase.
+- [x] [`ft_isalpha`](src/ft_isalpha.c)	- checks for an alphabetic character.
+- [x] [`ft_isdigit`](src/ft_isdigit.c)	- check for a digit (0 through 9).
+- [x] [`ft_isalnum`](src/ft_isalnum.c)	- checks for an alphanumeric character.
+- [x] [`ft_isascii`](src/ft_isascii.c)	- checks whether c fits into the ASCII character set.
+- [x] [`ft_isprint`](src/ft_isprint.c)	- checks for any printable character.
+- [x] [`ft_toupper`](src/ft_toupper.c)	- convert char to uppercase.
+- [x] [`ft_tolower`](src/ft_tolower.c)	- convert char to lowercase.
 
 ### From <string.h>
-- [x] [`ft_strlen`](ft_strlen.c)	- calculate the length of a string.
-- [x] [`ft_memset`](ft_memset.c)	- fill memory with a constant byte.
-- [x] [`ft_bzero`](ft_bzero.c)	- zero a byte string.
-- [x] [`ft_memcpy`](ft_memcpy.c)	- copy memory area.
-- [x] [`ft_memmove`](ft_memmove.c)	- copy memory area.
-- [x] [`ft_strlcpy`](ft_strlcpy.c)	- copy string to a specific size.
-- [x] [`ft_strlcat`](ft_strlcat.c)	- concatenate a string to a specific size.
-- [x] [`ft_strchr`](ft_strchr.c)	- locate character in a string.
-- [x] [`ft_strrchr`](ft_strrchr.c)	- locate character in a string.
-- [x] [`ft_strncmp`](ft_strncmp.c)	- compare two strings.
-- [x] [`ft_memchr`](ft_memchr.c)	- scan memory for a character.
-- [x] [`ft_memcmp`](ft_memcmp.c)	- compare memory areas.
-- [x] [`ft_strnstr`](ft_strnstr.c)	- locate a substring in a string.
-- [x] [`ft_strdup`](ft_strdup.c)	- creates a duplicate for the string passed as a parameter.
+- [x] [`ft_strlen`](src/ft_strlen.c)	- calculate the length of a string.
+- [x] [`ft_memset`](src/ft_memset.c)	- fill memory with a constant byte.
+- [x] [`ft_bzero`](src/ft_bzero.c)	- zero a byte string.
+- [x] [`ft_memcpy`](src/ft_memcpy.c)	- copy memory area.
+- [x] [`ft_memmove`](src/ft_memmove.c)	- copy memory area.
+- [x] [`ft_strlcpy`](src/ft_strlcpy.c)	- copy string to a specific size.
+- [x] [`ft_strlcat`](src/ft_strlcat.c)	- concatenate a string to a specific size.
+- [x] [`ft_strchr`](src/ft_strchr.c)	- locate character in a string.
+- [x] [`ft_strrchr`](src/ft_strrchr.c)	- locate character in a string.
+- [x] [`ft_strncmp`](src/ft_strncmp.c)	- compare two strings.
+- [x] [`ft_memchr`](src/ft_memchr.c)	- scan memory for a character.
+- [x] [`ft_memcmp`](src/ft_memcmp.c)	- compare memory areas.
+- [x] [`ft_strnstr`](src/ft_strnstr.c)	- locate a substring in a string.
+- [x] [`ft_strdup`](src/ft_strdup.c)	- creates a duplicate for the string passed as a parameter.
 
 
 ### From <stdlib.h>
