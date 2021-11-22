@@ -1,7 +1,7 @@
 <div align="center">
 	<div style="margin-bottom:3%">
 		<a href="https://www.42sp.org.br/">
-			<img src="./.img/libft.png alt="libft logo"/>
+			<img src="./.img/libft.png" alt="libft logo"/>
 		</a>
 	</div>
 	<div>
