@@ -3,15 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memmove.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: lkrebs-l <lkrebs-l@student.42sp.org.br     +#+  +:+       +#+        */
+/*   By: krebscoder <krebscoder@student.42.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/08/20 16:35:53 by lkrebs-l          #+#    #+#             */
-/*   Updated: 2021/09/24 22:53:31 by lkrebs-l         ###   ########.fr       */
+/*   Updated: 2021/11/03 16:14:44 by krebscoder       ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stdlib.h>
 
 void	*ft_memmove(void *dest, const void *src, size_t n)
 {
